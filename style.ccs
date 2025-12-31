@@ -1,37 +1,69 @@
+/* ===== PAGE BASE ===== */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background-color #orange;
+
+  /* ORANGE GRADIENT BACKGROUND */
+  background: linear-gradient(135deg, #ff9800, #ff6f00);
+
+  color: #333;
 }
 
+/* ===== HEADER ===== */
 header {
-  background: black;
+  background: #111;
   color: orange;
-  padding: 30px;
+  padding: 40px 20px;
   text-align: center;
 }
 
+/* ===== BUTTON ===== */
 .btn {
   display: inline-block;
   background: orange;
   color: black;
-  padding: 12px 20px;
-  margin-top: 15px;
+  padding: 14px 22px;
+  margin-top: 18px;
   text-decoration: none;
   font-weight: bold;
-  border-radius: 5px;
+  border-radius: 6px;
 }
 
+/* ===== CONTENT SECTIONS ===== */
 section {
   padding: 20px;
   background: white;
-  margin: 15px;
-  border-radius: 5px;
+  margin: 20px auto;
+  max-width: 900px;
+  border-radius: 8px;
 }
 
+/* ===== FOOTER ===== */
 footer {
   text-align: center;
-  padding: 15px;
+  padding: 20px;
   background: #222;
   color: white;
+}
+
+/* ===== MOBILE OPTIMIZATION ===== */
+@media (max-width: 768px) {
+
+  header {
+    padding: 30px 15px;
+  }
+
+  header h1 {
+    font-size: 26px;
+  }
+
+  .btn {
+    width: 90%;
+    max-width: 320px;
+  }
+
+  section {
+    margin: 15px;
+    padding: 18px;
+  }
 }
