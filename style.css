@@ -68,3 +68,22 @@ footer {
   padding: 14px;
   border-radius: 6px;
 }
+
+.social-icon-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  margin: 20px auto;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.facebook-btn {
+  background: #1877f2;
+}
+
+.social-icon-btn:hover {
+  transform: scale(1.05);
+}
