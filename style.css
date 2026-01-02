@@ -21,6 +21,25 @@ header {
   color: black;
   padding: 14px 22px;
   margin-top: 18px;
+
+  .site-header {
+  text-align: center;
+  background: black;
+  padding: 30px 20px;
+}
+
+.logo {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+  @media (max-width: 600px) {
+  .logo {
+    max-width: 150px;
+  }
+}
   text-decoration: none;
   font-weight: bold;
   border-radius: 6px;
